@@ -1,0 +1,32 @@
+/* Genel table stil*/
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  
+ 
+  th,
+  td {
+    padding: 10px;
+    text-align: left; 
+  }
+  
+  /*api Fotograflar */
+  img {
+    max-width: 100px; /*resimler min 100 px */
+    height: auto; /*resimlerin boyutlarını otomatik ayarlar */
+    margin: 10px; /* margin ekler */
+    padding: 10px; /* resim borderlarının içine padding ekler */
+    border: 1px solid black; /* arka plan resimlerine siyah border ekler */
+    border-radius: 5px; /* img kenarlıklarının köşelerini yuvarlar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* img  bir gölge ekler */
+    cursor: pointer; /* resimlerin üzerine gelindiğinde imleci işaretçi olarak değiştirir*/
+  }
+  

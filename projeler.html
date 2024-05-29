@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <!-- Meta etiketleri ve sayfa başlığı -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musa Can Daşdemir</title>
+
+    <!-- Google Fonts ve Font Awesome CSS dosyalarının bağlantıları -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Harici CSS dosyasının bağlantısı -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- İnline CSS stil tanımı -->
+    <style>
+      .project-images img {
+        width: 100%;
+        /* Resmin genişliğini %100 yap */
+        height: auto;
+        /* Otomatik yükseklik hesapla, orantılı olarak */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header bölümü -->
+    <header>
+      <div class="header-left">
+        <!-- Başlık -->
+        <h1>Projelerim</h1>
+      </div>
+      <div class="header-right">
+        <!-- Anasayfa bağlantısı -->
+        <a href="index.html" class="button">
+          <span class="icon">🏠</span> Anasayfa
+        </a>
+      </div>
+    </header>
+    <!-- Projeler bölümü -->
+    <section id="about">
+      <h2><i class="fas fa-project-diagram"></i> Projeler</h2>
+      <!-- Projelerle ilgili açıklama -->
+      <p>
+        "Merhaba, size kendimden bahsetmiştim. Burada ise yaptığım bazı
+        projelerin ekran resimlerini sizinle paylaşacağımı belirtmek istiyorum."
+      </p>
+      <!-- Proje ekran resimleri -->
+      <div class="project-images">
+        <img src="Ekran Resmi 2024-05-29 01.06.54.png" alt="Proje 1" />
+        <!-- Diğer ekran resimlerini buraya ekleyebilirsiniz -->
+      </div>
+    </section>
+
+    <!-- JavaScript kodu -->
+    <script>
+      // Pencere boyutu değiştiğinde bir işlem yapma
+      window.addEventListener("resize", function (event) {
+        console.log("Pencere boyutu değişti!");
+      });
+    </script>
+  </body>
+</html>
